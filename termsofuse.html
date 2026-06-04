@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Coming Soon</title>
+  <!-- Google Font: sleek, modern sans-serif -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+      background: radial-gradient(circle at 20% 30%, #1a1a2e, #0f0f1a 80%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+      color: #fff;
+    }
+
+    /* animated subtle glow rings in background */
+    .bg-glow {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(120px);
+      opacity: 0.25;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .glow-1 {
+      width: 50vw;
+      height: 50vw;
+      background: #6c63ff;
+      top: -20%;
+      left: -15%;
+      animation: floatGlow 18s ease-in-out infinite;
+    }
+
+    .glow-2 {
+      width: 40vw;
+      height: 40vw;
+      background: #ff6584;
+      bottom: -25%;
+      right: -10%;
+      animation: floatGlow 20s ease-in-out infinite reverse;
+    }
+
+    @keyframes floatGlow {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      33% { transform: translate(40px, -60px) scale(1.12); }
+      66% { transform: translate(-30px, 40px) scale(0.94); }
+    }
+
+    /* subtle grid overlay for texture */
+    .grid-overlay {
+      position: absolute;
+      inset: 0;
+      background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      background-size: 64px 64px;
+      mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
+      -webkit-mask-image: radial-gradient(ellipse at center, black 40%, transparent 80%);
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    /* main text container */
+    .content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: clamp(3.5rem, 12vw, 7rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      /* gradient text */
+      background: linear-gradient(135deg, #ffffff 0%, #d4d4f0 40%, #a599ff 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      /* subtle text shadow for depth */
+      filter: drop-shadow(0 8px 24px rgba(108, 99, 255, 0.4));
+      animation: subtlePulse 3.5s ease-in-out infinite;
+      margin-bottom: 0.5rem;
+    }
+
+    /* optional minimal dot decoration */
+    .dot-decoration {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background: #ff6584;
+      border-radius: 50%;
+      margin: 0 10px;
+      vertical-align: middle;
+      animation: floatDot 2.8s ease-in-out infinite;
+      box-shadow: 0 0 18px #ff6584;
+    }
+
+    .dot-decoration:last-child {
+      animation-delay: 0.4s;
+      background: #6c63ff;
+      box-shadow: 0 0 18px #6c63ff;
+    }
+
+    @keyframes subtlePulse {
+      0%, 100% { opacity: 0.92; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.02); }
+    }
+
+    @keyframes floatDot {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+
+    /* very subtle text below (optional but adds elegance) */
+    .sub-message {
+      font-size: 0.9rem;
+      color: rgba(255, 255, 255, 0.45);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: 500;
+      margin-top: 1.2rem;
+      animation: fadeIn 1s ease 0.5s both;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* responsive adjustments */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: clamp(3rem, 14vw, 5rem);
+      }
+      .sub-message {
+        font-size: 0.7rem;
+        letter-spacing: 2px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- ambient glows -->
+  <div class="bg-glow glow-1"></div>
+  <div class="bg-glow glow-2"></div>
+  <!-- texture overlay -->
+  <div class="grid-overlay"></div>
+
+  <!-- central content – only "Coming Soon" as requested -->
+  <div class="content">
+    <h1>
+      <span class="dot-decoration"></span>
+      Coming Soon
+      <span class="dot-decoration"></span>
+    </h1>
+    <!-- extremely minimal tagline – pure style, no extra message -->
+    <p class="sub-message">✦</p>
+  </div>
+</body>
+</html>

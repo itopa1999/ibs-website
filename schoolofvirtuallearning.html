@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Conrad Thomas" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <!--   Favicons    -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+
+	<!-- Document Title
+	============================================= -->
+	<title>Courses | School of Virtual Learning</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Raleway:400,600,900');
+        @import url('https://fonts.googleapis.com/css?family=Armata');
+        
+        #msgbody{
+            background: #56c3f4;
+            height: 100%;
+            margin: 0;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: none;
+        }
+        #msgbody a {
+          color: #fff;
+          text-decoration: none;
+          transition: all 0.30s linear 0s;
+        }
+        
+        .wrapper-1{
+          width:100%;
+          height:100vh;
+          display: flex;
+          flex-direction: column;
+        }
+        .wrapper-2{
+          padding: 30px;
+          text-align:center;
+        }
+        #msgbody h1{
+          font-family: 'Raleway', Arial Black, Sans-Serif;
+          font-size:4em;
+          font-weight: 900;
+          letter-spacing:3px;
+          color: #fafafa;
+          margin:0;
+          margin-top: 25px;
+          margin-bottom:25px;
+        }
+        .wrapper-2 p{
+          margin:0;
+          font-size:1.3em;
+          color:#fafafa;
+          font-family: 'Raleway', sans-serif;
+          letter-spacing:1px;
+          line-height: 1.5;
+        }
+        .wrapper-2 > img{
+            width: 40%;
+        }
+        .go-home{
+          background: #000000;
+          border:none;
+          padding: 25px 30px;
+          margin: 30px 0;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+        .go-home:hover{
+          opacity: 0.9;
+        }
+        .go-home a{
+          font-family: 'Raleway', Arial Black;
+          font-size: 1rem;
+          font-weight: 700!important;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          
+        }
+        .footer-like{
+          margin-top: auto; 
+          background: #000000;
+          padding:6px;
+          text-align:center;
+        }
+        .footer-like p{
+          margin:0;
+          padding:4px;
+          color:#fafafa;
+          font-family: 'Raleway', sans-serif;
+          letter-spacing:1px;
+        }
+        .footer-like p a{
+          text-decoration:none;
+          color:#5892FF;
+          font-weight: 600;
+        }
+        
+        .footer-like p a:hover{
+          color:#FFF;
+         }
+         
+         .alert {
+        	color: #ff0033;
+            font-weight: bold;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            cursor: default;
+            text-align: center;
+            width: 100%;
+        }
+
+        .errorModule {
+          margin: 40px auto 20px;
+          text-align: center;
+          color: #A80000;
+        }
+        .errorModule .errorIcon {
+          font-size: 34px;
+          margin: 15px;
+          animation: animateIcon 5s infinite;
+        }
+        .errorModule .errorMsg {
+          font-family: "Armata", sans-serif;
+          font-size: 14px;
+        }
+        @keyframes animateIcon {
+          0% {
+            -ms-transform: scale(1);
+            -moz-transform: scale(1);
+            -webkit-transform: scale(1);
+            transform: scale(1);
+          }
+          50% {
+            -ms-transform: scale(2);
+            -moz-transform: scale(2);
+            -webkit-transform: scale(2);
+            transform: scale(2);
+          }
+          100% {
+            -ms-transform: scale(1);
+            -moz-transform: scale(1);
+            -webkit-transform: scale(1);
+            transform: scale(1);
+          }
+        }
+        @media (min-width:360px){
+          #msgbody h1{
+            font-size:1.5em;
+          }
+          .go-home{
+            margin-bottom:20px;
+          }
+        }
+
+        @media (min-width:600px){
+          .thankyoucontent{
+              max-width:1000px;
+              margin:0 auto;
+            }
+          .wrapper-1{
+              height: initial;
+              max-width:620px;
+              margin:0 auto;
+              margin-top:50px;
+          }
+        }
+    </style>
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo">
+							<a href="index.html" class="standard-logo" data-dark-logo="images/logo3.jpg"><img src="images/logo3.jpg" alt="Ibadan Business School Logo"></a>
+							<a href="index.html" class="retina-logo" data-dark-logo="images/logo3.jpg"><img src="images/logo3.jpg" alt="Ibadan Business School Logo"></a>
+						</div><!-- #logo end -->
+
+						
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu">
+
+							<ul class="menu-container">
+								<li class="menu-item">
+									<a class="menu-link" href="index.html"><div>Home</div></a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="about.html"><div>About us</div></a>
+									<ul class="sub-menu-container mega-menu-dropdown">
+										<li class="menu-item">
+											<a class="menu-link" href="advisors.html"><div>Board of Advisors</div></a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="index.html"><div>Academics</div></a>
+									<ul class="sub-menu-container mega-menu-dropdown">
+										<li class="menu-item">
+											<a class="menu-link" href="developmentmanagement.html"><div>School of Development Management</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="enterprisemanagement.html"><div>School of Enterprise Management</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="schoolofvirtuallearning.html"><div>School of Virtual Learning</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="schoolofinnovativeclimatechangesolutions.html"><div>School of Innovative Climate Change Solutions</div></a>
+										</li>
+										
+									</ul>
+								</li>
+								
+								<li class="menu-item">
+									<a class="menu-link" href="contact.html"><div>Contact us</div></a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="blog.php"><div>Blog</div></a>
+								</li>
+								
+							</ul>
+						</nav><!-- #primary-menu end -->
+
+						
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<!-- Page Title
+		============================================= -->
+		<section id="page-title" class="page-title-parallax page-title-dark include-header" style="padding: 250px 0; background-image: url('images/IBSIMAGES/schoolofvirtuallearning.png'); background-size: cover; background-position: center center;" data-bottom-top="background-position:0px 400px;" data-top-bottom="background-position:0px -500px;">
+			<div class="container clearfix">
+				<h1>School of Virtual Learning</h1>
+				<span>Our Courses</span>
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#">School of Virtual Learning</a></li>
+					<li class="breadcrumb-item active" aria-current="page">courses</li>
+				</ol>
+			</div>
+
+		</section><!-- #page-title end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap">
+				<div class="container clearfix">
+					<div class="row gutter-40 col-mb-80">
+						<div class="postcontent col-lg-9">
+							<p>Learn new ideas, develop new skills, and access our industry experts from anywhere in the world. Our School of Virtual Learning (SVL) programmes are tailored to meet the needs of working professionals around the world. </p>
+							<p>The vast majority of our online students are working professionals who have demonstrated success in their careers to date. Just as technology is disrupting every aspect of business and society, and learning remains critical in building the capabilities that companies and other organisations need in order to adapt to changes in their environment, so have we embraced the exciting new possibilities created by technology to bring our learning experience and research driven programmes to the comfort and space of professionals and individuals with a flexible approach to learning.</p>
+							<p>Our online programmes give busy individuals for whom time commitment and rigid scheduling are a continual challenge the flexibility to learn on their own schedule.</p>
+							<p>Furthermore, organisations can benefit from the scale and speed of online education to give their employees the critical knowledge needed to formulate new strategies and execute on organisational transformation.</p>
+							<p>Here we take advantage of modern technology and provide online programmes with a perfect blend of research, experiential learning, and thought leadership for individuals who are on the go.</p>
+								
+							<!-- Posts
+							============================================= -->
+
+							<div>
+								<h3>Our Courses</h3>
+							</div>
+                            <div class="row" style="justify-content: flex-end;margin: 10px 0px;">
+                                <div class="col-md-4 col-sm-6 col-12" style="padding: 0px 0px 0px 25px;margin: 15px 0px;">
+                                    <label>Fiter Courses: </label><input id="filter" type="text" placeholder="Filter Courses" class="col-12">
+                                </div>
+                            </div>
+							<div id="posts" class="post-grid row grid-container gutter-40 clearfix" data-layout="fitRows">
+								<div class="entry col-lg-4 col-md-6 col-sm-6 col-12" id="dcai">
+                                    <div class="grid-inner">
+										<div class="entry-image">
+											<a href="#" data-toggle="modal" data-target="#courseFormModal">
+												<img src="images/IBSIMAGES/DataCollection.jpg" alt="Data, Collection, Analysis and Interpretation (DCAI)">
+											</a>
+										</div>
+										<div class="entry-title">
+											<h2><a href="#" data-toggle="modal" data-target="#courseFormModal">Data, Collection, Analysis and Interpretation (DCAI)</a></h2>
+										</div>
+										<div class="entry-meta">
+											<ul class="coursedatalist">
+												<li><a href="#"><i class="icon-calendar3"></i> Feb 6 - Feb 17 2023</a></li>
+												<li><a href="#"><i class="icon-money"></i> ₦90,000</a></li>
+												<li><a href="#"><i class="icon-time"></i>4 WEEKS</a></li>
+											</ul>
+										</div>
+										<div class="entry-content">
+											
+												<a href="#" data-toggle="modal" data-target="#courseFormModal" class="button button-3d button-dark button-large btn-block center">Apply Now</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="entry col-lg-4 col-md-6 col-sm-6 col-12" id="gpwp">
+									<div class="grid-inner">
+										<div class="entry-image">
+											<a href="#" data-toggle="modal" data-target="#courseFormModal">
+												<img src="images/IBSIMAGES/ApplicationsGrants.jpg" alt="Grants, Proposal, Writing and Packaging (GPWP)">
+											</a>
+										</div>
+										<div class="entry-title">
+											<h2><a href="#" data-toggle="modal" data-target="#courseFormModal">Grants, Proposal, Writing and Packaging (GPWP)</a></h2>
+										</div>
+										<div class="entry-meta">
+											<ul class="coursedatalist">
+												<li><i class="icon-calendar3"></i> Jan 16 - Jan 27 2023</li>
+												<li><a href="#"><i class="icon-money"></i> ₦90,000</a></li>
+												<li><a href="#"><i class="icon-time"></i>4 WEEKS</a></li>
+											</ul>
+										</div>
+										<div class="entry-content">
+											
+											<a href="#" data-toggle="modal" data-target="#courseFormModal" class="button button-3d button-dark button-large btn-block center">Apply Now</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="entry col-lg-4 col-md-6 col-sm-6 col-12" id="pcs">
+									<div class="grid-inner">
+										<div class="entry-image">
+											<a href="#" data-toggle="modal" data-target="#courseFormModal">
+												<img src="images/IBSIMAGES/Procurement.jpg" alt="Procurement of Consultancy Services (PCS)">
+											</a>
+										</div>
+										<div class="entry-title">
+											<h2><a href="#" data-toggle="modal" data-target="#courseFormModal">Procurement of Consultancy Services (PCS)</a></h2>
+										</div>
+										<div class="entry-meta">
+											<ul class="coursedatalist">
+												<li><i class="icon-calendar3"></i> Feb 20 - Mar 3 2023</li>
+												<li><a href="#"><i class="icon-money"></i> ₦90,000</a></li>
+												<li><a href="#"><i class="icon-time"></i>4 WEEKS</a></li>
+											</ul>
+										</div>
+										<div class="entry-content">
+											
+											<a href="#" data-toggle="modal" data-target="#courseFormModal" class="button button-3d button-dark button-large btn-block center">Apply Now</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="entry col-lg-4 col-md-6 col-sm-6 col-12" id="pge">
+									<div class="grid-inner">
+										<div class="entry-image">
+											<a href="#" data-toggle="modal" data-target="#courseFormModal">
+												<img src="images/IBSIMAGES/ProcurementofGoods.jpg" alt="Procurement of Goods and Equipment (PGE)">
+											</a>
+										</div>
+										<div class="entry-title">
+											<h2><a href="#" data-toggle="modal" data-target="#courseFormModal">Procurement of Goods and Equipment (PGE)</a></h2>
+										</div>
+										<div class="entry-meta">
+											<ul class="coursedatalist">
+												<li><i class="icon-calendar3"></i> Feb 13 - Feb 24 2023</li>
+												<li><a href="#"><i class="icon-money"></i> ₦90,000</a></li>
+												<li><a href="#"><i class="icon-time"></i>4 WEEKS</a></li>
+											</ul>
+										</div>
+										<div class="entry-content">
+											
+											<a href="#" data-toggle="modal" data-target="#courseFormModal" class="button button-3d button-dark button-large btn-block center">Apply Now</a>
+										</div>
+									</div>
+								</div>
+                               
+								<div class="entry col-lg-4 col-md-6 col-sm-6 col-12" id="pioiom">
+									<div class="grid-inner">
+										<div class="entry-image">
+											<a href="#" data-toggle="modal" data-target="#courseFormModal">
+												<img src="images/IBSIMAGES/ProjectInputOutput.png" alt="Project Input, Output, Impact and Outcome Measurement (PIOIOM)">
+											</a>
+										</div>
+										<div class="entry-title">
+											<h2><a href="#" data-toggle="modal" data-target="#courseFormModal">Project Input, Output, Impact and Outcome Measurement (PIOIOM)</a></h2>
+										</div>
+										<div class="entry-meta">
+											<ul class="coursedatalist">
+												<li><i class="icon-calendar3"></i> Jan 16 - Jan 27 2023</li>
+												<li><a href="#"><i class="icon-money"></i> ₦90,000</a></li>
+												<li><a href="#"><i class="icon-time"></i>4 WEEKS</a></li>
+											</ul>
+										</div>
+										<div class="entry-content">
+											
+											<a href="#" data-toggle="modal" data-target="#courseFormModal" class="button button-3d button-dark button-large btn-block center">Apply Now</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="entry col-lg-4 col-md-6 col-sm-6 col-12" id="rbme">
+									<div class="grid-inner">
+										<div class="entry-image">
+											<a href="#" data-toggle="modal" data-target="#courseFormModal">
+												<img src="images/IBSIMAGES/Performance.jpg" alt="Result-Based Project Monitoring and Evaluation (RBME)">
+											</a>
+										</div>
+										<div class="entry-title">
+											<h2><a href="#" data-toggle="modal" data-target="#courseFormModal">Result-Based Project Monitoring and Evaluation (RBME)</a></h2>
+										</div>
+										<div class="entry-meta">
+											<ul class="coursedatalist">
+												<li><i class="icon-calendar3"></i> Feb 6 - Feb 17 2023</li>
+												<li><a href="#"><i class="icon-money"></i> ₦90,000</a></li>
+												<li><a href="#"><i class="icon-time"></i>4 WEEKS</a></li>
+											</ul>
+										</div>
+										<div class="entry-content">
+											
+											<a href="#" data-toggle="modal" data-target="#courseFormModal" class="button button-3d button-dark button-large btn-block center">Apply Now</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="entry col-lg-4 col-md-6 col-sm-6 col-12" id="bwsd">
+									<div class="grid-inner">
+										<div class="entry-image">
+											<a href="#" data-toggle="modal" data-target="#courseFormModal">
+												<img src="images/IBSIMAGES/BusinessWritingSkills.jpg" alt="Business Writing Skills Development (BWSD)">
+											</a>
+										</div>
+										<div class="entry-title">
+											<h2><a href="#" data-toggle="modal" data-target="#courseFormModal">Business Writing Skills Development (BWSD)</a></h2>
+										</div>
+										<div class="entry-meta">
+											<ul class="coursedatalist">
+												<li><i class="icon-calendar3"></i> Feb 13 - Feb 24 2023</li>
+												<li><a href="#"><i class="icon-money"></i> ₦90,000</a></li>
+												<li><a href="#"><i class="icon-time"></i>4 WEEKS</a></li>
+											</ul>
+										</div>
+										<div class="entry-content">
+											
+											<a href="#" data-toggle="modal" data-target="#courseFormModal" class="button button-3d button-dark button-large btn-block center">Apply Now</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="entry col-lg-4 col-md-6 col-sm-6 col-12" id="tbpe">
+									<div class="grid-inner">
+										<div class="entry-image">
+											<a href="#" data-toggle="modal" data-target="#courseFormModal">
+												<img src="images/IBSIMAGES/TenderBiddingProcedure.jpg" alt="Tender/Bidding Procedure and Evaluation (TBPE)">
+											</a>
+										</div>
+										<div class="entry-title">
+											<h2><a href="#" data-toggle="modal" data-target="#courseFormModal">Tender/Bidding Procedure and Evaluation (TBPE)</a></h2>
+										</div>
+										<div class="entry-meta">
+											<ul class="coursedatalist">
+												<li><i class="icon-calendar3"></i> Feb 13 - Feb 24 2023</li>
+												<li><a href="#"><i class="icon-money"></i> ₦90,000</a></li>
+												<li><a href="#"><i class="icon-time"></i>4 WEEKS</a></li>
+											</ul>
+										</div>
+										<div class="entry-content">
+											
+											<a href="#" data-toggle="modal" data-target="#courseFormModal" class="button button-3d button-dark button-large btn-block center">Apply Now</a>
+										</div>
+									</div>
+								</div>
+                                
+								<div class="entry col-lg-4 col-md-6 col-sm-6 col-12" id="bfs">
+									<div class="grid-inner">
+										<div class="entry-image">
+											<a href="#" data-toggle="modal" data-target="#courseFormModal">
+												<img src="images/IBSIMAGES/business-plan1.webp" alt="Business Feasibility Study (BFS)">
+											</a>
+										</div>
+										<div class="entry-title">
+											<h2><a href="#" data-toggle="modal" data-target="#courseFormModal">Business Feasibility Study (BFS)</a></h2>
+										</div>
+										<div class="entry-meta">
+											<ul class="coursedatalist">
+												<li><i class="icon-calendar3"></i> Feb 13 - Feb 24 2023</li>
+												<li><a href="#"><i class="icon-money"></i> ₦90,000</a></li>
+												<li><a href="#"><i class="icon-time"></i>4 WEEKS</a></li>
+											</ul>
+										</div>
+										<div class="entry-content">
+											
+											<a href="#" data-toggle="modal" data-target="#courseFormModal" class="button button-3d button-dark button-large btn-block center">Apply Now</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="entry col-lg-4 col-md-6 col-sm-6 col-12" id="bpd">
+									<div class="grid-inner">
+										<div class="entry-image">
+											<a href="#" data-toggle="modal" data-target="#courseFormModal">
+												<img src="images/IBSIMAGES/BusinessProposalDevelopment.jpg" alt="Business Proposal Development (BPD)">
+											</a>
+										</div>
+										<div class="entry-title">
+											<h2><a href="#" data-toggle="modal" data-target="#courseFormModal">Business Proposal Development (BPD)</a></h2>
+										</div>
+										<div class="entry-meta">
+											<ul class="coursedatalist">
+												<li><i class="icon-calendar3"></i> Feb 13 - Feb 24 2023</li>
+												<li><a href="#"><i class="icon-money"></i> ₦90,000</a></li>
+												<li><a href="#"><i class="icon-time"></i>4 WEEKS</a></li>
+											</ul>
+										</div>
+										<div class="entry-content">
+											
+											<a href="#" data-toggle="modal" data-target="#courseFormModal" class="button button-3d button-dark button-large btn-block center">Apply Now</a>
+										</div>
+									</div>
+								</div>
+								<div class="entry col-lg-4 col-md-6 col-sm-6 col-12" id="brm">
+									<div class="grid-inner">
+										<div class="entry-image">
+											<a href="#" data-toggle="modal" data-target="#courseFormModal">
+												<img src="images/IBSIMAGES/risk-management.jpg" alt="Business Risk Management (BRM)">
+											</a>
+										</div>
+										<div class="entry-title">
+											<h2><a href="#" data-toggle="modal" data-target="#courseFormModal">Business Risk Management (BRM)</a></h2>
+										</div>
+										<div class="entry-meta">
+											<ul class="coursedatalist">
+												<li><i class="icon-calendar3"></i> Feb 13 - Feb 24 2023</li>
+												<li><a href="#"><i class="icon-money"></i> ₦90,000</a></li>
+												<li><a href="#"><i class="icon-time"></i>4 WEEKS</a></li>
+											</ul>
+										</div>
+										<div class="entry-content">
+											
+											<a href="#" data-toggle="modal" data-target="#courseFormModal" class="button button-3d button-dark button-large btn-block center">Apply Now</a>
+										</div>
+									</div>
+								</div>
+                                
+								<div class="entry col-lg-4 col-md-6 col-sm-6 col-12" id="esd">
+									<div class="grid-inner">
+										<div class="entry-image">
+											<a href="#" data-toggle="modal" data-target="#courseFormModal">
+												<img src="images/IBSIMAGES/EntrepreneurshipSkillsDevelopment.jpg" alt="Entrepreneurship Skills Development (ESD)">
+											</a>
+										</div>
+										<div class="entry-title">
+											<h2><a href="#" data-toggle="modal" data-target="#courseFormModal">Entrepreneurship Skills Development (ESD)</a></h2>
+										</div>
+										<div class="entry-meta">
+											<ul class="coursedatalist">
+												<li><i class="icon-calendar3"></i> Feb 13 - Feb 24 2023</li>
+												<li><a href="#"><i class="icon-money"></i> ₦90,000</a></li>
+												<li><a href="#"><i class="icon-time"></i>4 WEEKS</a></li>
+											</ul>
+										</div>
+										<div class="entry-content">
+											
+											<a href="#" data-toggle="modal" data-target="#courseFormModal" class="button button-3d button-dark button-large btn-block center">Apply Now</a>
+										</div>
+									</div>
+								</div>
+								<div class="entry col-lg-4 col-md-6 col-sm-6 col-12" id="jisda">
+									<div class="grid-inner">
+										<div class="entry-image">
+											<a href="#" data-toggle="modal" data-target="#courseFormModal">
+												<img src="images/IBSIMAGES/JobInterviewSkills.jpg" alt="Job Interview Skills Development for Applicants (JISDA)">
+											</a>
+										</div>
+										<div class="entry-title">
+											<h2><a href="#" data-toggle="modal" data-target="#courseFormModal">Job Interview Skills Development for Applicants (JISDA)</a></h2>
+										</div>
+										<div class="entry-meta">
+											<ul class="coursedatalist">
+												<li><i class="icon-calendar3"></i> Feb 13 - Feb 24 2023</li>
+												<li><a href="#"><i class="icon-money"></i> ₦90,000</a></li>
+												<li><a href="#"><i class="icon-time"></i>4 WEEKS</a></li>
+											</ul>
+										</div>
+										<div class="entry-content">
+											
+											<a href="#" data-toggle="modal" data-target="#courseFormModal" class="button button-3d button-dark button-large btn-block center">Apply Now</a>
+										</div>
+									</div>
+								</div>
+								<div class="entry col-lg-4 col-md-6 col-sm-6 col-12" id="rpm">
+									<div class="grid-inner">
+										<div class="entry-image">
+											<a href="#" data-toggle="modal" data-target="#courseFormModal">
+												<img src="images/IBSIMAGES/RetirementPlanning.jpg" alt="Retirement Planning and Management (RPM)">
+											</a>
+										</div>
+										<div class="entry-title">
+											<h2><a href="#" data-toggle="modal" data-target="#courseFormModal" >Retirement Planning and Management (RPM)</a></h2>
+										</div>
+										<div class="entry-meta">
+											<ul class="coursedatalist">
+												<li><i class="icon-calendar3"></i> Feb 13 - Feb 24 2023</li>
+												<li><a href="#"><i class="icon-money"></i> ₦90,000</a></li>
+												<li><a href="#"><i class="icon-time"></i>4 WEEKS</a></li>
+											</ul>
+										</div>
+										<div class="entry-content">
+											
+											<a href="#" data-toggle="modal" data-target="#courseFormModal" class="button button-3d button-dark button-large btn-block center">Apply Now</a>
+										</div>
+									</div>
+								</div>
+								<div class="entry col-lg-4 col-md-6 col-sm-6 col-12" id="csd">
+									<div class="grid-inner">
+										<div class="entry-image">
+											<a href="#" data-toggle="modal" data-target="#courseFormModal">
+												<img src="images/IBSIMAGES/ConsultancySkillsDevelopment2.jpg" alt="Consultancy Skills Development (CSD)">
+											</a>
+										</div>
+										<div class="entry-title">
+											<h2><a href="#" data-toggle="modal" data-target="#courseFormModal" >Consultancy Skills Development (CSD)</a></h2>
+										</div>
+										<div class="entry-meta">
+											<ul class="coursedatalist">
+												<li><i class="icon-calendar3"></i> Feb 13 - Feb 24 2023</li>
+												<li><a href="#"><i class="icon-money"></i> ₦90,000</a></li>
+												<li><a href="#"><i class="icon-time"></i>4 WEEKS</a></li>
+											</ul>
+										</div>
+										<div class="entry-content">
+											
+											<a href="#" data-toggle="modal" data-target="#courseFormModal" class="button button-3d button-dark button-large btn-block center">Apply Now</a>
+										</div>
+									</div>
+								</div>
+							</div><!-- #posts end -->
+							
+							<div class="clear mt-5"></div>
+
+
+							<div class="modal fade" id="courseFormModal" tabindex="-1" role="dialog" aria-labelledby="courseFormModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h4 class="modal-title" id="courseFormModalLabel">Apply For: </h4>
+											<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+										</div>
+										<div class="modal-body">
+
+											<div id="regmodal" class="form-widget">
+												<form class="mb-0" id="courseform" action="mailer.php" data-parsley-validate="" onsubmit="return false;" method="post" enctype="multipart/form-data">
+
+													<div class="form-process">
+														<div class="css3-spinner">
+															<div class="css3-spinner-scaler"></div>
+														</div>
+													</div>
+
+													<div class="row">
+        												<div class="col-sm-6 form-group">
+        													<label for="firstname">First Name <small>*</small></label>
+        													<input type="text" id="firstname" name="firstname" 
+                                                            required
+                                                            data-parsley-required-message="Please enter your first name."
+                                                            data-parsley-trigger="change" 
+                                                            value="" class="sm-form-control required" />
+        												</div>
+                                                        
+                                                        <div class="col-sm-6 form-group">
+        													<label for="name">Middle Name </label>
+        													<input type="text" id="middlename" name="middlename" value="" class="sm-form-control" />
+        												</div>
+        
+                                                        <div class="col-sm-6 form-group">
+        													<label for="name">Last Name <small>*</small></label>
+        													<input type="text" id="lastname" name="lastname" value="" 
+                                                            required
+                                                            data-parsley-required-message="Please enter your last name."
+                                                            data-parsley-trigger="change" 
+                                                            class="sm-form-control required" />
+        												</div>
+                                                        
+                                                        <div class="w-100"></div>
+        
+        												<div class="col-sm-6 form-group">
+        													<label for="email">Email <small>*</small></label>
+        													<input type="email" id="email" name="email" value="" 
+                                                            required
+                                                            data-parsley-trigger="change" 
+                                                            data-parsley-required-message="Please enter your email address."
+                                                            class="required email sm-form-control" />
+        												</div>
+        
+        												<div class="col-sm-6 form-group">
+        													<label for="phone">Phone <small>*</small></label>
+        													<input type="text" id="phone" name="phone" value=""
+                                                            required
+                                                            data-parsley-trigger="change" 
+                                                            data-parsley-required-message="Please enter your phone number."
+                                                            class="sm-form-control" />
+        												</div>
+        
+        												<div class="col-sm-12 form-group">
+        													<label for="coursename">Course Name <small>*</small></label>
+        													<select id="coursename" name="coursename" class="sm-form-control" 
+                                                            required
+                                                            data-parsley-trigger="change"
+                                                            data-parsley-required-message="Please select your desired course.">
+																<option value="">-- Select One --</option>
+                                                                <option value="Data, Collection, Analysis And Interpretation (DCAI)">Data, Collection, Analysis And Interpretation (DCAI)</option>
+                                                                <option value="Grants, Proposal, Writing And Packaging (GPWP)">Grants, Proposal, Writing And Packaging (GPWP)</option>
+                                                                <option value="Procurement Of Consultancy Services (PCS)">Procurement Of Consultancy Services (PCS)</option>
+                                                                <option value="Procurement Of Goods And Equipment (PGE)">Procurement Of Goods And Equipment (PGE)</option>
+                                                                <option value="Project Input, Output, Impact And Outcome Measurement (PIOIOM)">Project  Input, Output, Impact And Outcome Measurement (PIOIOM)</option>
+                                                                <option value="Result-based Project Monitoring And Evaluation (RBME)">Result-based Project Monitoring And Evaluation (RBME)</option>
+                                                                <option value="Business Writing Skills Development (BWSD)">Business Writing Skills Development (BWSD)</option>
+                                                                <option value="Business Feasibility Study (BFS)">Business Feasibility Study (BFS)</option>
+                                                                <option value="Business Proposal Development (BPD)">Business Proposal Development (BPD)</option>
+                                                                <option value="Business Risk Management (BRM)">Business Risk Management (BRM)</option>
+                                                                <option value="Entrepreneurship Skills Development (ESD)">Entrepreneurship Skills Development (ESD)</option>
+                                                                <option value="Job Interview Skills Development For Applicants (JISDA)">Job Interview Skills Development For Applicants (JISDA)</option>
+                                                                <option value="Retirement Planning And Management (RPM)">Retirement Planning And Management (RPM)</option>
+                                                                <option value="Consultancy Skills Development (CSD)">Consultancy Skills Development (CSD)</option>
+															</select>
+														</div>
+
+														<div class="col-12 form-group">
+															<label for="message">Additional Information </label>
+															<textarea class="sm-form-control" id="message" name="message" rows="6" cols="30"></textarea>
+														</div>
+
+														<div class="col-12 form-group">
+															<button class="button button-3d m-0" type="submit" id="courseformsubmit" name="template-contactform-submit" value="submit">Apply</button>
+														</div>
+													</div>
+
+													<input type="hidden" name="prefix" value="template-contactform-">
+
+												</form>
+                                                <div id="msgbody">
+                                                    <div class="errorModule">
+                                                      <div class="errorIcon">
+                                                        <i class="fa fa-unlink"></i>
+                                                      </div>
+                                                      <div class="errorMsg">
+                                                          <p>An error occurred while submitting your form <br />
+                                                           Please check your network and try again later.</p>
+                                                      </div>
+                                                    </div>
+                                                    <div class=thankyoucontent>
+                                                         <div class="wrapper-1">
+                                                            <div class="wrapper-2">
+                                                               <img src="images/thank-you-envelope.png" alt="thank-you-envelope" border="0">
+                                                              <h1>Application Successful</h1>
+                                                              <p>Thank you for applying for <span id="cid"></span>.</p> 
+                                                              <p>An email has been sent to your email account with further details of your application.</p>
+                                                              <button class="go-home"><a href="https://ibadanbusinessschool.ng/">
+                                                                home page</a>
+                                                              </button>
+                                                            </div>
+                                                           
+                                                            <div class="footer-like">
+                                                              <p>
+                                                              </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+											    </div>
+
+
+										    </div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+									</div><!-- /.modal-content -->
+								</div><!-- /.modal-dialog -->
+							</div><!-- /.modal -->
+
+						</div>
+
+					</div>
+					<div class="sidebar col-lg-3">
+							<div class="sidebar-widgets-wrap">
+
+								<div class="widget widget_links clearfix">
+
+									<h4>Why School of Virtual Learning</h4>
+									<div class="row">
+										<div class="col-md-12">
+											<h5>Convenient and friendly</h5>
+											<p>
+												Participants can study at the comfort of their homes, offices, or on the-go using your PC and any Smart Mobile Cost effective: It is affordable (at a subsidised fee),
+												saves the cost of transportation, hotel accommodation, feeding etc. The course are offered at generally affordable rates without compromising standard andquality.
+											</p>
+										</div>
+										<div class="col-md-12">
+											<h5>Zero Commutation</h5>
+											<p>This platform allows study without being bothered about the stress of commuting from one geographical location to the other.</p>
+										</div>
+										<div class="col-md-12">
+											<h5>Mobile</h5>
+											<p>Significant attraction for all prospective participants in our e- learning programme, is the introduction of learning through mobile Technology (Mobile Phones) whereby, all participants could simultaneously
+												receive lecture broadcasts on their enabled smart mobile phones.
+											</p>
+											<p>Greater retention and self-paced: Learners can go at their own pace, not at the pace of the slowest member of a group.</p>
+										</div>
+										<div class="col-md-12">
+											<h5>Environmental Friendliness</h5>
+											<p>E-learning courses are entirely self-contained, presenting all learning content online and providing content online and providing alternatives to paper-based forms of communication
+												through such tools as email, PDF manuals, and other web-based tools (but the Hard-copy Certificate, upon request).
+											</p>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="widget clearfix">
+
+									<h5>What programme is for you?</h5>
+									<div class="col-md-12">
+										
+										
+									</div>
+									<div class="posts-sm row col-mb-30" id="post-list-sidebar">
+										<div class="entry col-12">
+											<div class="grid-inner row no-gutters">
+												<div class="col pl-3">
+													<div class="entry-meta">
+														<p>Under our e-Learning platform, we offer 15 wide-ranging courses covering every aspect of capacity needs of a growing economy, from Project Management to Business Management and General Management.
+															Participants have the opportunity of learning from practicing professionals from not less than 5 continents of the World.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+								</div> 
+							</div>
+						</div>
+					
+    				</div>
+    			</div>
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+
+					<div class="row col-mb-50">
+						<div class="col-lg-8">
+
+							<div class="row col-mb-50">
+								<div class="col-md-4">
+
+									<div class="widget clearfix">
+										<p>
+											<strong>Ibadan Business School</strong> is committed to learning &amp; development of it’s participants. Through the richly engaging courses available.</p>
+
+										<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+											<address>
+												<strong>Address:</strong><br>
+												60/62/64/66/70 Francis Okediji Street,<br>  
+												Off Awolowo Ave behind Davis Hotel<br>
+												Old Bodija, 234022, Ibadan<br>
+											</address>
+											<abbr title="Phone Number"><strong>Phone:</strong></abbr> <br />+234(0)91 2036 9645<br>
+											+234(0)91 2036 9646<br>
+											+234(0)91 2036 9647<br>
+											+234(0)91 2036 9648<br>
+											+234(0)91 2036 9649<br>
+											<abbr title="Email Address"><strong>Email:</strong></abbr> <br />info@ibadanbusinessschool.ng<br />ibadanbusinessschool@gmail.com
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="col-md-4">
+
+									<div class="widget widget_links clearfix">
+
+										<h4>Quick Links</h4>
+										<ul>
+											<li><a href="developmentmanagement.html">School of Development Management</a></li>
+											<li><a href="enterprisemanagement.html">School of Enterprise Management</a></li>
+											<li><a href="schoolofvirtuallearning.html">School of Virtual Learning</a></li>
+											<li><a href="schoolofinnovativeclimatechangesolutions.html">School of Innovative Climate Change Solutions</a></li>
+											<li><a href="https://www.ibshotelng.com">IBS Hotel</a></li>
+											<li><a href="careers.html" target="_blank">Careers </a></li>
+											<li><a href="gallery.html" target="_blank">Gallery</a></li>
+											<li><a href="2023IBS-Broch.pdf" target="_blank">Brochure</a></li>
+											<li><a href="contact.html">Contact us</a></li>
+										</ul>
+
+									</div>
+
+								</div>
+
+								<div class="col-md-4">
+
+									<div class="widget clearfix">
+										<h4>Recent Posts</h4>
+
+										<div class="posts-sm row col-mb-30" id="post-list-footer">
+                                            <div class="entry col-12">
+												<div class="grid-inner row">
+													<div class="col">
+														<div class="entry-title">
+															<h4><a href="https://twitter.com/IBSNigeria/status/1384793691009736707?cxt=HHwWhoCz_cyh47cmAAAA" target="_blank">Ibadan Business School in a snap</a></h4>
+														</div>
+                                                        <div class="entry-meta">
+															<ul>
+																<li>21th April 2021</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="entry col-12">
+												<div class="grid-inner row">
+													<div class="col">
+														<div class="entry-title">
+															<h4><a href="https://twitter.com/IBSNigeria/status/1377240081027772420?cxt=HHwWiMC5gdGj-JwmAAAA" target="_blank">An overview of Ibadan Business School</a></h4>
+														</div>
+                                                        <div class="entry-meta">
+															<ul>
+																<li>31th March 2021</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+                                            <div class="entry col-12">
+												<div class="grid-inner row">
+													<div class="col">
+														<div class="entry-title">
+															<h4><a href="https://twitter.com/IBSNigeria/status/1372183977285533702?cxt=HHwWjICyydSD_YomAAAA" target="_blank">Effective Communication and presentation develops the pronunciation</a></h4>
+														</div>
+                                                        <div class="entry-meta">
+															<ul>
+																<li>17th March 2021</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-lg-4">
+
+							<div class="row col-mb-50">
+								<div class="col-md-4 col-lg-12">
+									<div class="widget clearfix" style="margin-bottom: -20px;">
+
+										<div class="row">
+											<div class="col-lg-6 bottommargin-sm">
+												<div class="counter counter-small"><span data-from="50" data-to="50000" data-refresh-interval="80" data-speed="3000" data-comma="true"></span>+</div>
+												<h5 class="mb-0">Clients</h5>
+											</div>
+
+											<div class="col-lg-6 bottommargin-sm">
+												<div class="partners partners-small"><span>World Bank</span></div>
+												<h5 class="mb-0">Partners</h5>
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="col-md-5 col-lg-12">
+									<div class="widget subscribe-widget clearfix">
+										<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
+										<div class="widget-subscribe-form-result"></div>
+										<form id="widget-subscribe-form" action="http://themes.semicolonweb.com/html/canvas/include/subscribe.php" method="post" class="mb-0">
+											<div class="input-group mx-auto">
+												<div class="input-group-prepend">
+													<div class="input-group-text"><i class="icon-email2"></i></div>
+												</div>
+												<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
+												<div class="input-group-append">
+													<button class="btn btn-success" type="submit">Subscribe</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+				<div class="container">
+
+					<div class="row col-mb-30">
+
+						<div class="col-md-6 text-center text-md-left">
+							Copyrights &copy; 2026 All Rights Reserved by Ibadan Business School.<br>
+							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+						</div>
+
+						<div class="col-md-6 text-center text-md-right">
+							<div class="d-flex justify-content-center justify-content-md-end">
+								<a href="https://www.facebook.com/ibadanbusinessschool/" target="_blank" class="social-icon si-small si-borderless si-facebook">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+
+                                <a href="https://www.instagram.com/ibadanbusinessschool/?hl=en" target="_blank" class="social-icon si-small si-borderless si-facebook">
+									<i class="icon-instagram"></i>
+									<i class="icon-instagram"></i>
+								</a>
+
+								<a href="https://twitter.com/ibsnigeria?lang=en" target="_blank" class="social-icon si-small si-borderless si-twitter">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+
+								<a href="https://ng.linkedin.com/company/ibadan-business-school" target="_blank" class="social-icon si-small si-borderless si-linkedin">
+									<i class="icon-linkedin"></i>
+									<i class="icon-linkedin"></i>
+								</a>
+							</div>
+
+							<div class="clear"></div>
+
+							<i class="icon-envelope2"></i> info@ibadanbusinessschool.ng <span class="middot">&middot;</span> <i class="icon-headphones"></i> +234 701 590 1451 <span class="middot">&middot;</span>
+						</div>
+
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+    <script src="js/parsley.min.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+    <script type="text/javascript">
+        document.querySelector("#filter").addEventListener('keyup', filterCourses);
+        function filterCourses(){
+            let text = $(this).val();
+            $("#posts .entry-title a").each(function(){
+                if(text.length == 0 || $(this).text().toLowerCase().indexOf(text.toLowerCase()) > -1){
+                    $(this).parents(".entry").css("display","");
+                }else{
+                    $(this).parents(".entry").css("display","none");
+                }
+            });
+            $("#posts").resize();
+        }
+        
+
+    async function postData(url = '', data) {
+        // Default options are marked with *
+        const response = await fetch(url, {
+            method: 'POST', // *GET, POST, PUT, DELETE, etc.
+            mode: 'cors', // no-cors, *cors, same-origin
+            cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+            credentials: 'same-origin', // include, *same-origin, omit
+            headers: {
+                'Content-Type': 'application/json'
+            //   'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            redirect: 'follow', // manual, *follow, error
+            referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+            //body: JSON.stringify(data) // body data type must match "Content-Type" header
+            body: JSON.stringify(data) // body data type must match "Content-Type" header
+        });
+        return response; // parses JSON response into native JavaScript objects
+    }
+    
+    document.querySelector("#courseform").addEventListener("submit", event => event.preventDefault());
+    document.querySelector("#courseformsubmit").addEventListener("click", async event =>{
+        if(($('#courseform').parsley()).isValid()){
+            let elementsValue = document.querySelector("#courseform").elements
+            $("#courseform .form-process").css("display","block");
+            let response = await postData(
+                $("#courseform").attr("action"), {
+                firstname:  elementsValue["firstname"].value,
+                middlename: elementsValue["middlename"].value,
+                lastname: elementsValue["lastname"].value,
+                phone : elementsValue["phone"].value,
+                email : elementsValue["email"].value,
+                course : elementsValue["coursename"].value,
+                additionalmessage : elementsValue["message"].value,
+                action: "sendmail",
+            });
+            if (!response.ok) {
+                $("#msgbody").css("background", "none");
+                $("#msgbody").css("display", "block");
+                $("#courseform .form-process").css("display","none");
+                $("#courseFormModalLabel").addClass("alert");
+                $("#courseFormModalLabel").text("Application Submission Failed");
+                $(".thankyoucontent").css("display", "none");
+                $("#regmodal > form").css("margin-left", "-100%");
+                throw new Error('Network response was not OK');
+            }else{
+                let result = await response.json();
+                $("#courseform .form-process").css("display","none");
+                if(result[0].status == "true"){
+                    $(".errorModule").css("display", "none");
+                    $("#msgbody").css("display", "block");
+                    $("#courseFormModalLabel").text("Application Submission Successful");
+                    $("#cid").text(elementsValue["coursename"].value);
+                    $("#regmodal > form").css("margin-left", "-100%");
+                }else{
+                    $("#msgbody").css("background", "none");
+                    $("#courseFormModalLabel").addClass("alert");
+                    $("#courseFormModalLabel").text("Application Submission Failed");
+                    $(".thankyoucontent").css("display", "none");
+                    $("#msgbody").css("display", "block");
+                    $("#regmodal > form").css("margin-left", "-100%");
+                    //$("#regmodal > div").html("<p>An error occured while submiting your form, please check your network and try again later!</p>");
+                }
+            }
+        }else{
+            ($('#courseform').parsley()).validate();
+        }
+    });
+
+    $("#courseFormModal").on("hide.bs.modal", function (){
+        document.querySelector('#courseform').reset();
+        $("#regmodal > form").css("margin-left", '');
+        $("#courseFormModalLabel").text("Apply for:");
+        $(".thankyoucontent").css("display", '');
+        $("#msgbody").css("display", "none");
+        $("#msgbody").css("background", '');
+        $("#courseform .form-process").css("display","none");
+        $("#courseFormModalLabel").removeClass("alert");
+    });
+    (function($) {
+        $.fn.inputFilter = function(inputFilter) {
+            return this.on("input keydown keyup mousedown mouseup select contextmenu drop", function() {
+            if (inputFilter(this.value)) {
+                this.value = this.value;
+                this.oldValue = this.value;
+                this.oldSelectionStart = this.selectionStart;
+                this.oldSelectionEnd = this.selectionEnd;
+            } else if (this.hasOwnProperty("oldValue")) {
+                this.value = this.oldValue;
+                this.setSelectionRange(this.oldSelectionStart, this.oldSelectionEnd);
+            } else {
+                this.value = "";
+            }
+            });
+        };
+    }(jQuery));
+    
+    $("#phone").inputFilter(function(value){ 
+				return /^(-?[\d,]*)$/.test(value);  
+	});
+
+    
+    $( document ).ready(function() {
+       $(".grid-inner a").each(function(){
+            if($(this).attr("data-target") == "#courseFormModal"){
+                $(this).click(function () {
+                    let text = $(this).parents(".grid-inner").find(".entry-title").find("h2").find("a").text();
+                    $("#coursename option").each(function () {
+                        if($(this).val().toLowerCase() == text.toLowerCase())
+                           $(this).attr("selected","selected");
+                    });
+                    $("#courseFormModalLabel").text(text);
+                });
+            }
+        })
+    });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head><meta charset="utf-8"><meta name="author" content="Conrad Thomas" /><!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/swiper.css" rel="stylesheet" type="text/css" />
+	<link href="css/dark.css" rel="stylesheet" type="text/css" />
+	<link href="css/font-icons.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" />
+	<link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+	<link href="css/custom.css" rel="stylesheet" type="text/css" /><meta name="viewport" content="width=device-width, initial-scale=1" /><!--   Favicons    -->
+	<link href="images/favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
+	<link href="images/favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+	<link href="images/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
+	<link href="images/favicons/site.webmanifest" rel="manifest" />
+	<link color="#5bbad5" href="images/favicons/safari-pinned-tab.svg" rel="mask-icon" />
+	<link href="images/favicons/favicon.ico" rel="shortcut icon" /><meta name="msapplication-TileColor" content="#da532c"><meta name="msapplication-config" content="images/favicons/browserconfig.xml"><meta name="theme-color" content="#ffffff"><!-- Document Title
+	============================================= -->
+	<title>Home | Ibadan Business School</title>
+	<style type="text/css">#filter_courses{
+            width:100%;
+            padding:10px;
+        }
+
+        #users-list{
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            z-index: 999999;
+            background: #fff;
+            width: 97%;
+			max-height: 400px;
+			overflow: auto;
+        }
+
+        #users-list li{
+            list-style:none;
+            padding:10px;
+            margin:5px 0;
+            border: 1px solid #e4e4e4;
+            text-align: left;
+        }
+
+		#users-list li a{
+			display: flex;
+			flex-direction: column;
+		}
+
+		span > strong > span{
+			color :  rgb(216, 160, 6);
+		}
+
+		li > a > span > strong{
+			text-transform: capitalize;
+		}
+
+		@media (max-width:992px) {
+            .departments{
+		        max-height: 300px !important;
+		        min-height: 300px !important;
+		    }
+        }
+	</style>
+</head>
+<body class="stretched"><!-- Document Wrapper
+	============================================= -->
+<div class="clearfix" id="wrapper"><!-- Header
+		============================================= -->
+<header class="full-header" data-menu-padding="32" data-sticky-logo-height="74" id="header">
+<div id="header-wrap">
+<div class="container">
+<div class="header-row"><!-- Logo
+						============================================= -->
+<div id="logo"><a class="standard-logo" data-dark-logo="images/logo3.jpg" href="index.html"><img alt="IBS Logo" src="images/logo3.jpg" /></a> <a class="retina-logo" data-dark-logo="images/logo3.jpg" href="index.html"><img alt="IBS Logo" src="images/logo3.jpg" /></a></div>
+<!-- #logo end -->
+
+<div id="primary-menu-trigger"><svg class="svg-trigger" viewbox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg></div>
+<!-- Primary Navigation
+						============================================= -->
+
+<nav class="primary-menu">
+<ul class="menu-container">
+	<li class="menu-item">
+	<div><a class="menu-link" href="index.html">Home</a></div>
+	</li>
+	<li class="menu-item">
+	<div><a class="menu-link" href="about.html">About us</a></div>
+
+	<ul class="sub-menu-container mega-menu-dropdown">
+		<li class="menu-item">
+		<div><a class="menu-link" href="advisors.html">Board of Advisors</a></div>
+		</li>
+	</ul>
+	</li>
+	<li class="menu-item">
+	<div><a class="menu-link" href="index.html">Academics</a></div>
+
+	<ul class="sub-menu-container mega-menu-dropdown">
+		<li class="menu-item">
+		<div><a class="menu-link" href="developmentmanagement.html">School of Development Management</a></div>
+		</li>
+		<li class="menu-item">
+		<div><a class="menu-link" href="enterprisemanagement.html">School of Enterprise Management</a></div>
+		</li>
+		<li class="menu-item">
+		<div><a class="menu-link" href="schoolofvirtuallearning.html">School of Virtual Learning</a></div>
+		</li>
+		<li class="menu-item">
+		<div><a class="menu-link" href="schoolofinnovativeclimatechangesolutions.html">School of Innovative Climate Change Solutions</a></div>
+		</li>
+	</ul>
+	</li>
+	<li class="menu-item">
+	<div><a class="menu-link" href="contact.html">Contact us</a></div>
+	</li>
+</ul>
+</nav>
+<!-- #primary-menu end -->
+
+<form action="#" class="top-search-form" method="get"><input autocomplete="off" class="form-control" name="q" placeholder="Type &amp; Hit Enter.." type="text" value="" /></form>
+</div>
+</div>
+</div>
+
+<div class="header-wrap-clone"></div>
+</header>
+<!-- #header end -->
+
+<section class="slider-element swiper_wrapper min-vh-60 min-vh-md-100" data-autoplay="7000" data-loop="true" data-speed="650" id="slider">
+<div class="slider-inner">
+<div class="swiper-container swiper-parent">
+<div class="swiper-wrapper">
+<div class="swiper-slide not-dark">
+<div class="container">
+<div class="slider-caption slider-caption-center">
+<h2 data-animate="fadeInUp">Ibadan Business School</h2>
+
+<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">At Ibadan Business School, we are committed to providing capacity building services to individuals in the two most important sectors of the economy, the public sector and the micro, small and medium enterprises sector.</p>
+</div>
+</div>
+
+<div class="swiper-slide-bg" style="background-image: url('images/slider/swiper/ibshome.jpg');"></div>
+</div>
+
+<div class="swiper-slide not-dark">
+<div class="container">
+<div class="slider-caption">
+<h2 data-animate="fadeInUp">School Of Development Management</h2>
+
+<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Through the School of Development Management, we provide programmes and research designed to equip individuals at all levels of public service with the tools necessary to successfully manage and meet the changing needs of their departments, ministries, constituents and communities.</p>
+</div>
+</div>
+
+<div class="swiper-slide-bg" style="background-image: url('images/slider/swiper/sdm.jpg');"></div>
+</div>
+
+<div class="swiper-slide">
+<div class="container">
+<div class="slider-caption">
+<h2 data-animate="fadeInUp">School Of Enterprise Management</h2>
+
+<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">We help entrepreneurs make a difference. To leverage the benefits of MSMEs in Nigeria, MSMEs need leaders who bring new ideas and are able to manage in a volatile economy. In our commitment to serve micro, small and medium enterprises, the School of Enterprise Management provides hands on, experiential entrepreneurship education and co-created consultancy services that support graduates, prospective and practicing entrepreneurs as well as business professionals in creating value and building sustainable businesses..</p>
+</div>
+</div>
+
+<div class="swiper-slide-bg" style="background-image: url('images/slider/swiper/enterprisemanagement.jpg'); background-position: center top;"></div>
+</div>
+
+<div class="swiper-slide">
+<div class="container">
+<div class="slider-caption slider-caption-center">
+<h2 data-animate="fadeInUp">School Of Virtual Learning</h2>
+
+<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Learn new ideas, develop new skills, and access our industry experts from anywhere in the world. Our School of Virtual Learning (SVL) programmes are tailored to meet the needs of working professionals around the world.</p>
+</div>
+</div>
+
+<div class="swiper-slide-bg" style="background-image: url('images/slider/swiper/virtuallearning.jpg'); background-position: center top;"></div>
+</div>
+
+<div class="swiper-slide">
+<div class="container">
+<div class="slider-caption">
+<h2 data-animate="fadeInUp">School of Innovative Climate Change Solutions</h2>
+
+<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">The Institute is one of Africa&rsquo;s foremost business schools, with a unique focus on both the public sector and the MSMEs (Micro Small and Medium Enterprises), delivering highly qualitative, result-driven and impactful human capital building and consultancy services to international and multilateral agencies, Federal Government MDAs, State Government MDAs, Local Governments, as well as the organised private sector.</p>
+</div>
+</div>
+
+<div class="swiper-slide-bg" style="background-image: url('images/slider/swiper/innovative.jpg'); background-position: center top;"></div>
+</div>
+</div>
+
+<div class="slider-arrow-left"></div>
+
+<div class="slider-arrow-right"></div>
+
+<div class="slide-number">
+<div class="slide-number-current"></div>
+<span>/</span>
+
+<div class="slide-number-total"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Content
+		============================================= -->
+
+<section id="content">
+<div class="content-wrap">
+<div class="section header-stick">
+<div class="container clearfix">
+<div class="row">
+<div class="col-lg-9">
+<div class="heading-block bottommargin-sm">
+<h3>We specialize in Robust Educational Solutions</h3>
+</div>
+
+<p class="mb-0">These are a blend of cutting edge academic learning with practical team work exercises, case study reviews and networking. After which you are encouraged to apply the learning immediately in simulated exercises that test your thinking. Through a combination of high impact interactive teaching test, company visits, class presentations, renowned facilitators, simulations, our programmes guarantee that you are immersed in our culture and learn what you need to know.</p>
+</div>
+
+<div class="col-lg-3"><a class="button button-3d button-dark button-large btn-block center" href="allcourses.html" style="margin-top: 30px;">Check our Courses</a></div>
+</div>
+</div>
+</div>
+
+<div class="container clearfix">
+<div class="heading-block center">
+<h3>Academic And Training Programmes</h3>
+<span>The school is divided into four departments</span></div>
+
+<div class="row justify-content-left home" style="margin-bottom: 40px">
+<div class="col-sm-12 col-lg-3">
+<div class="feature-box media-box">
+<div class="fbox-media departments"><a href="developmentmanagement.html"><img alt="School of Development Management" class="homeimg departments" src="images/school/1.png" /></a></div>
+</div>
+</div>
+
+<div class="col-sm-12 col-lg-3">
+<div class="feature-box media-box">
+<div class="fbox-media departments"><a href="enterprisemanagement.html"><img alt="School of Enterprise Management" class="homeimg departments" src="images/school/2.png" /></a></div>
+</div>
+</div>
+
+<div class="col-sm-12 col-lg-3">
+<div class="feature-box media-box">
+<div class="fbox-media departments"><a href="schoolofvirtuallearning.html"><img alt="School of Virtual Learning" class="homeimg departments" src="images/school/3.png" /></a></div>
+</div>
+</div>
+
+<div class="col-sm-12 col-lg-3">
+<div class="feature-box media-box">
+<div class="fbox-media departments"><a href="schoolofinnovativeclimatechangesolutions.html"><img alt="School of Innovative Climate Change Solutions" class="homeimg departments" src="images/school/4.png" /></a></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="section header-stick" style="background-color: #ffffff; display: none">
+<div class="container clearfix">
+<div class="heading-block center">
+<h3>Some of our <span>Featured</span> Courses</h3>
+<span>We have some absolutely amazing courses that are worth showcasing.</span></div>
+</div>
+</div>
+
+<div class="container clearfix center">
+<h3>Find a course by name or by topic</h3>
+<input id="filter_courses" placeholder="Find a course" type="text" />
+<ul id="users-list">
+</ul>
+</div>
+
+<div class="container clearfix">
+<div class="heading-block center">
+<h3 class="center">Or</h3>
+
+<h3>Some of our <span>Featured</span> Courses</h3>
+<span>We have some absolutely amazing courses that are worth showcasing.</span></div>
+
+<div class="row justify-content-left home">
+<div class="col-sm-6 col-lg-4">
+<div class="feature-box media-box">
+<div class="fbox-media"><img alt="Financial Management Programmes" class="homeimg" src="images/IBSIMAGES/FinancialManagement.jpg" /></div>
+
+<div class="fbox-content px-0 scrollbar" id="style-4">
+<div class="force-overflow">
+<h3>Financial Management Programmes. <span class="subtitle"> Fees: NGN 750,000<br />
+Duration: 2 weeks per module.<br />
+<strong>Targeted Objectives:</strong> </span></h3>
+
+<p>At the end of the training, participants will be able to:</p>
+
+<ul class="homeul">
+	<li>Have an in-depth knowledge of the principles and approaches to financial management.</li>
+	<li>Be able to analyse project outputs and outcomes and evaluate them in the light of project development objectives.</li>
+	<li>Understand the process of determining key performance indicators for effective and efficient financial management.</li>
+	<li>Learn how to select targets for result assessment.</li>
+	<li>Understand contemporary best practices in finance management for best results.</li>
+</ul>
+
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-lg-4">
+<div class="feature-box media-box">
+<div class="fbox-media"><img alt="Monitoring and Evaluation Management Programmes" class="homeimg" src="images/IBSIMAGES/monitoring.jpg" /></div>
+
+<div class="fbox-content px-0 scrollbar" id="style-4">
+<div class="force-overflow">
+<h3>Monitoring and Evaluation Management Programmes. <span class="subtitle"> Fees: NGN 750,000<br />
+Duration: 2 weeks per module.<br />
+<strong>Targeted Objectives:</strong> </span></h3>
+
+<p>This programme is aimed at equipping participants with the skills to carry out result-based monitoring and evaluation as against the old and ineffective implementation monitoring and evaluation to ensure the sustainability of the project gains.</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-lg-4">
+<div class="feature-box media-box">
+<div class="fbox-media"><img alt="Social Protection Programmes" class="homeimg" src="images/IBSIMAGES/Social Protection.jpg" /></div>
+
+<div class="fbox-content px-0 scrollbar" id="style-4">
+<div class="force-overflow">
+<h3>Social Protection Programmes. <span class="subtitle"> Fees: NGN 750,000<br />
+Duration: 2 weeks per module.<br />
+<strong>Targeted Objectives:</strong> </span></h3>
+
+<p>At the end of the training, participants will be able to:</p>
+
+<ul class="homeul">
+	<li>Apply practical knowledge of international professional standards in social protection design and implementation.</li>
+	<li>Improve the administration of social protection programmes through the World Bank Guidelines.</li>
+	<li>Effectively involve in the governance, design, reforms and administration of social safety nets institutions.</li>
+	<li>Apply international best practices and guidelines of social security schemes and the protection of the interests of beneficiaries.</li>
+	<li>Have better understanding and awareness of the economic and financial implications of social protection systems.</li>
+	<li>Effectively deploy knowledge of the techniques and methods used for establishing financially sustainable social protection schemes.</li>
+	<li>Amicably resolve the challenges posed by the demographic and economic changes for social protection schemes.</li>
+	<li>Apply an international perspective on social security policy issues through comparative analysis and experiences.</li>
+	<li>Understand the importance of the extension of social protection as a powerful tool to reduce poverty and inequalities while contributing to economic growth and development.</li>
+	<li>Use relevant tools and techniques for a diagnosis of current national social protection systems and formulation of a national strategy on the extension of social protection.</li>
+</ul>
+
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-lg-4">
+<div class="feature-box media-box">
+<div class="fbox-media"><img alt="Project Management Programmes" class="homeimg" src="images/IBSIMAGES/ProjectManagement.png" /></div>
+
+<div class="fbox-content px-0 scrollbar" id="style-4">
+<div class="force-overflow">
+<h3>Project Management Programmes. <span class="subtitle"> Fees: NGN 750,000<br />
+Duration: 2 weeks per module.<br />
+Modules:<br />
+<strong>Targeted Objectives:</strong> </span></h3>
+
+<p>This training is aimed at equipping participants with the skills to carry out result-based project management to ensure successful implementation and sustainability of the project gains. At the end of the training, participants will be able to:</p>
+
+<ul class="homeul">
+	<li>Understand and have a broad framework and scope of projects and their management attributes, tasks and time.</li>
+	<li>Understand and explain the processes of transferring project management principles and attributes into actionable activities.</li>
+	<li>Appreciate and be able to use the available project management tools to enhance their performance.</li>
+	<li>Proactively identify potential project implementation risks and prepare risk mitigation plan.</li>
+</ul>
+
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-lg-4">
+<div class="feature-box media-box">
+<div class="fbox-media"><img alt="Performance Based Financing Programme" class="homeimg" src="images/IBSIMAGES/PerformanceBasedFinancing.jpg" /></div>
+
+<div class="fbox-content px-0 scrollbar" id="style-4">
+<div class="force-overflow">
+<h3>Performance Based Financing Programme. <span class="subtitle"> Fees: NGN 750,000<br />
+Duration: 2 weeks per module.<br />
+<strong>Targeted Objectives:</strong> </span></h3>
+
+<p>At the end of the training, participants will be able to:</p>
+
+<ul class="homeul">
+	<li>Master the theories, best practices and instruments which are relevant to putting performance-based financing into practice and developthe skills and attitudes to manage transitions and create change.</li>
+	<li>Successfully apply PBF specific market-based instruments.</li>
+	<li>Gain technical skills and know how to effectively and practically implement PBF.</li>
+	<li>Resolve governance and management issues in PBF.</li>
+</ul>
+
+<p></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-lg-4">
+<div class="feature-box media-box">
+<div class="fbox-media"><img alt="Governance and Leadership Management Programme" class="homeimg" src="images/IBSIMAGES/Governance.jpg" /></div>
+
+<div class="fbox-content px-0 scrollbar" id="style-4">
+<div class="force-overflow">
+<h3>Governance and Leadership Management Programme. <span class="subtitle"> Fees: NGN 750,000<br />
+Duration: 2 weeks per module.<br />
+<strong>Targeted Objectives:</strong> </span></h3>
+
+<p>At the end of the training, participants will be able to:</p>
+
+<ul class="homeul">
+	<li>Gain theoretical and practical understanding of good governance and corporate governance.</li>
+	<li>Apply the best principles of corporate governance to their everyday responsibilities.</li>
+	<li>Acquire the peculiar skills of effective leadership that fosters good governance.</li>
+	<li>Apply the strategies of of leadership in governance for enhancement of results.</li>
+	<li>Understand and apply the strategies of effective and efficient administrative processes in development projects&rsquo; governance frameworks</li>
+</ul>
+
+<p></p>
+</div>
+</div>
+</div>
+</div>
+<!--
+						<div class="col-sm-6 col-lg-4">
+							<div class="feature-box media-box">
+								<div class="fbox-media">
+									<img src="images/services/rsz_prm.jpg" class="homeimg" alt="Procurement Management Programme">
+								</div>
+								<div class="fbox-content px-0 scrollbar" id="style-4">
+								    <div class="force-overflow">
+    									<h3>
+    									    Procurement Management Programme.
+    									    <span class="subtitle">
+    									        Fees: NGN 500,000 <br />
+    									        Duration: 2 weeks per module.<br />
+    									        <strong>Targeted Objectives:</strong>
+    									    </span>
+    									</h3>
+    									<p>
+    									    At the end of the training, participants will be able to:
+    									    <ul class="homeul">
+                                                <li>Learn and apply the basic concepts of Procurement.</li>
+                                                <li>Appreciate the roles and benefits of operating a good procurement system within a project.</li>
+                                                <li>Learn and apply the various methods of procurement available such as international Competitive.</li>
+                                                <li>Bidding (ICB), Limited International Bidding (LIB), National Competitive Bidding (NCB), direct purchase and shopping amongst others.</li>
+                                                <li>Understand the processes and tools in public procurement</li>
+                                                <li>Identify and overcome the current challenges associated with public procurement</li>
+                                                <li>Develop appropriate public procurement monitoring indicators</li>
+                                                <li>Undertake an effective market survey and analysis</li>
+                                                <li>Draw up good procurement plans using appropriate planning tools amongst others</li>
+    									    </ul>
+                                        </p>
+                                    </div>
+								</div>
+							</div>
+						</div>
+						--></div>
+<a class="button button-3d button-dark button-large btn-block center" href="allcourses.html" style="margin-top: 30px;">Check our Courses</a></div>
+
+<div class="section parallax bottommargin-lg" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;" style="background-image: url('images/parallax/3.jpg'); padding: 100px 0;">
+<div class="heading-block center border-bottom-0 mb-0">
+<h2>&quot;Everything is designed, but some things are designed well.&quot;</h2>
+</div>
+</div>
+
+<div class="container clearfix">
+<div class="container clearfix">
+<div class="owl-carousel owl-carousel-full image-carousel carousel-widget" data-autoplay="5000" data-items-lg="5" data-items-md="4" data-items-sm="3" data-items-xl="6" data-items-xs="2" data-loop="true" data-margin="30" data-nav="false" data-pagi="false" id="oc-clients" style="padding: 20px 0;">
+<div class="oc-item"><a href="http://logofury.com/"><img alt="Clients" src="images/clients/1.png" /></a></div>
+
+<div class="oc-item"><a href="http://logofury.com/"><img alt="Clients" src="images/clients/2.png" /></a></div>
+
+<div class="oc-item"><a href="http://logofury.com/"><img alt="Clients" src="images/clients/3.png" /></a></div>
+
+<div class="oc-item"><a href="http://logofury.com/"><img alt="Clients" src="images/clients/4.png" /></a></div>
+
+<div class="oc-item"><a href="http://logofury.com/"><img alt="Clients" src="images/clients/5.png" /></a></div>
+
+<div class="oc-item"><a href="http://logofury.com/"><img alt="Clients" src="images/clients/6.png" /></a></div>
+
+<div class="oc-item"><a href="http://logofury.com/"><img alt="Clients" src="images/clients/7.png" /></a></div>
+
+<div class="oc-item"><a href="http://logofury.com/"><img alt="Clients" src="images/clients/8.png" /></a></div>
+
+<div class="oc-item"><a href="http://logofury.com/"><img alt="Clients" src="images/clients/9.png" /></a></div>
+
+<div class="oc-item"><a href="http://logofury.com/"><img alt="Clients" src="images/clients/10.png" /></a></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- #content end --><!-- Footer
+		============================================= -->
+
+<footer class="dark" id="footer">
+<div class="container"><!-- Footer Widgets
+				============================================= -->
+<div class="footer-widgets-wrap">
+<div class="row col-mb-50">
+<div class="col-lg-8">
+<div class="row col-mb-50">
+<div class="col-md-4">
+<div class="widget clearfix">
+<p>Ibadan Business School is committed to learning &amp; development of it&rsquo;s participants. Through the richly engaging courses available.</p>
+
+<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+<address><strong>Address:</strong><br />
+60/62/64/66/70 Francis Okediji Street,<br />
+Off Awolowo Ave behind Davis Hotel<br />
+Old Bodija, 234022, Ibadan</address>
+<abbr title="Phone Number"><strong>Phone:</strong></abbr><br />
++234(0)9120369645<br />
++234(0)9120369647<br />
++234(0)9120369651<br /> <br />
+<abbr title="Email Address"><strong>Email:</strong></abbr><br />
+info@ibadanbusinessschool.ng<br />
+ibadanbusinessschool@gmail.com</div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="widget widget_links clearfix">
+<h4>Quick Links</h4>
+
+<ul>
+	<li><a href="developmentmanagement.html">School of Development Management</a></li>
+	<li><a href="enterprisemanagement.html">School of Enterprise Management</a></li>
+	<li><a href="schoolofvirtuallearning.html">School of Virtual Learning</a></li>
+	<li><a href="schoolofinnovativeclimatechangesolutions.html">School of Innovative Climate Change Solutions</a></li>
+	<li><a href="https://www.ibshotelng.com">IBS Hotel</a></li>
+	<li><a href="careers.html" target="_blank">Careers&nbsp;</a></li>
+	<li><a href="gallery.html" target="_blank">Gallery</a></li>
+	<li><a href="contact.html">Contact us</a></li>
+</ul>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="widget clearfix">
+<h4>Recent Posts</h4>
+
+<div class="posts-sm row col-mb-30" id="post-list-footer">
+<div class="entry col-12">
+<div class="grid-inner row">
+<div class="col">
+<div class="entry-title">
+<h4><a href="https://twitter.com/IBSNigeria/status/1384793691009736707?cxt=HHwWhoCz_cyh47cmAAAA" target="_blank">Ibadan Business School in a snap</a></h4>
+</div>
+
+<div class="entry-meta">
+<ul>
+	<li>21th April 2021</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="entry col-12">
+<div class="grid-inner row">
+<div class="col">
+<div class="entry-title">
+<h4><a href="https://twitter.com/IBSNigeria/status/1377240081027772420?cxt=HHwWiMC5gdGj-JwmAAAA" target="_blank">An overview of Ibadan Business School</a></h4>
+</div>
+
+<div class="entry-meta">
+<ul>
+	<li>31th March 2021</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="entry col-12">
+<div class="grid-inner row">
+<div class="col">
+<div class="entry-title">
+<h4><a href="https://twitter.com/IBSNigeria/status/1372183977285533702?cxt=HHwWjICyydSD_YomAAAA" target="_blank">Effective Communication and presentation develops the pronunciation</a></h4>
+</div>
+
+<div class="entry-meta">
+<ul>
+	<li>17th March 2021</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-lg-4">
+<div class="row col-mb-50">
+<div class="col-md-4 col-lg-12">
+<div class="widget clearfix" style="margin-bottom: -20px;">
+<div class="row">
+<div class="col-lg-6 bottommargin-sm">
+<div class="counter counter-lined"><span data-from="10" data-to="50000" data-refresh-interval="25" data-speed="3500" data-comma="true"></span>+</div>
+
+<h5 class="mb-0">Clients</h5>
+</div>
+
+<div class="col-lg-6 bottommargin-sm">
+<div class="partners partners-small"><span>World Bank</span></div>
+
+<h5 class="mb-0">Partners</h5>
+</div>
+</div>
+</div>
+</div>
+
+<div class="col-md-5 col-lg-12">
+<div class="widget subscribe-widget clearfix">
+<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
+
+<div class="widget-subscribe-form-result"></div>
+
+<form action="http://themes.semicolonweb.com/html/canvas/include/subscribe.php" class="mb-0" id="widget-subscribe-form" method="post">
+<div class="input-group mx-auto">
+<div class="input-group-prepend">
+<div class="input-group-text"></div>
+</div>
+<input class="form-control required email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" placeholder="Enter your Email" type="email" />
+<div class="input-group-append"><button class="btn btn-success" type="submit">Subscribe</button></div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- .footer-widgets-wrap end --></div>
+<!-- Copyrights
+			============================================= -->
+
+<div id="copyrights">
+<div class="container">
+
+<div class="row col-mb-30">
+
+	<div class="col-md-6 text-center text-md-left">
+		Copyrights &copy; <script>document.write(new Date().getFullYear())</script> All Rights Reserved by Ibadan Business School.<br>
+		<div class="copyright-links"><a href="termsofuse.html">Terms of Use</a> / <a href="privacypolicy.html">Privacy Policy</a></div>
+	</div>
+
+	<div class="col-md-6 text-center text-md-right">
+		<div class="d-flex justify-content-center justify-content-md-end">
+			<a href="https://www.facebook.com/ibadanbusinessschool/" target="_blank" class="social-icon si-small si-borderless si-facebook">
+				<i class="icon-facebook"></i>
+				<i class="icon-facebook"></i>
+			</a>
+
+            <a href="https://www.instagram.com/ibadanbusinessschool/?hl=en" target="_blank" class="social-icon si-small si-borderless si-facebook">
+				<i class="icon-instagram"></i>
+				<i class="icon-instagram"></i>
+			</a>
+
+			<a href="https://twitter.com/ibsnigeria?lang=en" target="_blank" class="social-icon si-small si-borderless si-twitter">
+				<i class="icon-twitter"></i>
+				<i class="icon-twitter"></i>
+			</a>
+
+			<a href="https://ng.linkedin.com/company/ibadan-business-school" target="_blank" class="social-icon si-small si-borderless si-linkedin">
+				<i class="icon-linkedin"></i>
+				<i class="icon-linkedin"></i>
+			</a>
+		</div>
+
+		<div class="clear"></div>
+
+		<i class="icon-envelope2"></i> info@ibadanbusinessschool.ng <span class="middot">&middot;</span> <i class="icon-headphones"></i> +234(0)9120369651 <span class="middot">&middot;</span>
+	</div>
+
+</div>
+
+</div>
+</div>
+<!-- #copyrights end --></footer>
+<!-- #footer end --></div>
+<!-- #wrapper end --><!-- Go To Top
+	============================================= -->
+
+<div class="icon-angle-up" id="gotoTop"></div>
+<!-- JavaScripts
+	============================================= --><script src="js/jquery.js"></script><script src="js/plugins.min.js"></script><!-- Footer Scripts
+	============================================= --><script src="js/functions.js"></script>
+	<script>
+        var users = 
+[ 
+{title : "Procurement Management", course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Introduction To Supply Chain And Procurement Management", course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Procurement Management: Essentials, Principles And Standards", course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Procurement Planning Process" , course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Methods Of Procurement" , course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Advertisement Practices In Procurement" , course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Market Research In Procurement" , course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Public Sector Procurement" , course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Private Sector Procurement" , course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Procurement Of Goods And Equipment", course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Procurement Of Civil Works" , course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Procurement Of Consultancy Services" , course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Selection Methods In Procurement Of Consultancy Services" , course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Procurement Of Non-Consulting Services", course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Principles Of Public Bidding", course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Procedures For Managing And Evaluating Bids/ Tenders", course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Invitation, Evaluation And Negotiation Of Contract Proposals", course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Systematic Tracking Of Exchanges In Procurement (Step)", course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "E-Procurement", course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Contract Management And Administration", course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Procurement Management Tools And Techniques", course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Monitoring And Evaluation Of Procurement Performance", course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Information Management And Reporting Requirement In Procurement", course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Procurement Audit", course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+{title : "Best Practices In Public Procurement", course : "Procurement Management", department : "School Of Development Management", location : "procurementmanagement.html"},
+   
+//
+{title : "Monitoring And Evaluation Management", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Introduction To Monitoring And Evaluation", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Principles Of An Effective Monitoring And Evaluation", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Project Development And Monitoring And Evaluation", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Key Paradigms And Approaches To Monitoring And Evaluation", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Essentials Of Monitoring And Evaluation", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Tools And Methods In Monitoring And Evaluation", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Baseline Survey", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Target Setting", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Intermediate", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Planning For Monitoring And Evaluation", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Monitoring And Evaluation Indicators", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Data Gathering For An Effective Monitoring And Evaluation", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Conducting Readiness Assessment", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Data Documentation And Reporting", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Evaluation Task Roles And Responsibilities", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Participatory Monitoring And Evaluation (Pm&E)", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Result Based Monitoring And Evaluation", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Process Evaluation And Institutionalisation Of M&E System", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Communicating Monitoring And Evaluation Information", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Conflict Management In M&E", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Basic Consultancy Skills Development", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Quantitative Data Analysis Using Computer Based Statistical Software Packages", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Designing Monitoring And Evaluation And Management Information Systems", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+{title : "Contemporary Experience Sharing In Monitoring And Evaluation", course : "Monitoring And Evaluation Management", department : "School Of Development Management", location : "monitoringandevaluationmanagement.html"},
+
+//
+{title : "Project Management Programme", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Principles And Fundamentals Of Project Management", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Project Identification And Feasibility Study", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Developing And Analyzing Project Development Objectives (Pdos), Input, Output And Outcome", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Project Scope And Task Management", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Project Management Triangle And Tools", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "The Project Cycle And Project Management Methodology", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Project Problem Diagnosis And Analysis", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Developing Project Proposals", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Project Development Concept", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Project Resource-Use Mobilisation And Management", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Managing Project Quality", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Project Management Team Building", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Project Risk Management And Mitigation Methodology", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Project Financial Management", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Project Procurement Management", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Result Based Project Monitoring, Evaluation And Reporting Of Development Projects", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Project Stakeholder Management", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Project Conflict Management", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Social, Economic And Environmental Issues In Project Development", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Project Communication, Reporting And Documentation", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Development Projects’ Governance: Objectives, Administration And Challenges", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Project Public-Private Partnership Frameworks", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Project Impact And Sustainability", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+{title : "Project Closure Management", course : "Project Management Programme", department : "School Of Development Management", location : "projectmanagement.html"},
+//
+{title : "Financial Management Programme", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Fiduciary Management: Issues And Concepts", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "The Project Cycle", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Project Financial Management Principles, Guidelines And Procedures", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Project Cost Estimation And Forecasting", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Budget Preparation Frameworks And Strategies", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Project Financial Records Management", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Financial Disbursement Planning And Management In Donor Funded Projects", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Financial Disbursement: Case Studies, Issues And Challenges", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Project Management Report", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Ipsas", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Financial Risk Identification And Mitigation Strategies", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Financial Performance Indicators", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Project Pricing, Performance And Profitability", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Financial Delegations And Authorities", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Financial Disbursement Retirement, Documentation And Reporting", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Asset And Contract Management", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Strategic Auditing Of Project Finance: Tools And Strategies", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Documentation And Reporting: Mapping, Recording And Reporting Financial Information.", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Public Financial Management", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+{title : "Financial Guidelines, Regulations And Policies", course : "Financial Management Programme", department : "School Of Development Management", location : "financialmanagement.html"},
+
+//
+{title : "Governance And Leadership Management Programme", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Good Governance Vs Corporate Governance: The Interface", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Leadership In Governance: Process, Structure And Practice", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Productivity-Driven Resources Management: Tools, Strategies And Application", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Public Service Delivery Management: Effectiveness And Efficiency Interface", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Projects/Programme Team Building And Mentoring For Results", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Development Projects’ Governance: Objectives, Administration And Challenges", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Result-Based Monitoring , Evaluation And Reporting Of Public Projects", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Public Administration Vs Business Administration: The Interface", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Strategy Management", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Public Sector Risk Management", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Data Management In Good Governance", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Budget Planning, Monitoring And Evaluation", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Public And Private Sector Procurement Practices", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "International Public Sector Accounting System (Ipsas)", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Leadership And Governance Audit", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Development Policy, Planning, Administration And Management", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "International Development Management", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Development Communication  Management", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Peace And Conflict Management", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Leadership Mentoring And Succession Planning", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+{title : "Global Contemporary Best Practices In Governance And Leadership", course : "Governance And Leadership Management Programme", department : "School Of Development Management", location : "governanceandleadershipmanagement.html"},
+//
+{title : "Social Protection Programme", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Poverty And Its Multidimensionality", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Poverty Mapping", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Overview Of Social Protection", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Poverty And Women, Girls & Child Protection System", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Targeting And Profiling", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Intervention Beneficiary Register Collection, Collation And Validation", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Designing And Setting Social Protection Objectives And Performance Indicators", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Benefit And Payment Systems", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Social Safety Net Programme Implementation", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Social Safety Net Programme M&E And Reporting", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Stakeholder Management In Social Protection Programmes", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Issues And Challenges In Social Protection Management", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Best Practices In Social Protection Intervention", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Social Protection Policy Planning And Formulation", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Political And Economic Management Of Social Protection Programmes", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Sustainable Financing Of Social Protection Programmes", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Cultural Dynamics In Social Protection Programmes", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Institutionalisation And Policy Cycles For Social Protection", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+{title : "Managing Social Safety Net Information System", course : "Social Protection Programme", department : "School Of Development Management", location : "socialprotection.html"},
+//
+{title : "Performance Based Financing Management Programme", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Introduction To Performance Based Financing", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Theories Underlying Performance Based Financing", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Baseline Studies For Performance Based Financing", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Performance Based Financing Feasibility Study", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Sensitization And Mobilization For Performance Based Finance", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Costing In Performance Based Financing", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Equity Issues In Performance Based Financing", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Pilot Testing Performance Based Financing", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Micro-Economics And Free Market Principles", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Provider Community Interaction And Social Marketing", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Performance Based Financing In Health Sector", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Performance Based Financing In Education Sector", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Performance Based Financing In Social Protection Programme", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Performance Based Financing In Agricultural Sector", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Quality Assurance In Performance Based Financing", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Developing Workplan In Performance Based Financing", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Monitoring, Evaluation, Reporting And Documentation In Performance Based Financing", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Conflict Resolution And Negotiation Techniques In Performance Based Financing", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Governance Issues In Performance Based Financing", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Performance Based Financing In Emergency Situation", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "National Policies And Regulations In Performance Based Financing", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Performance Based Finance Programme Audit And Reporting", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+{title : "Contemporary Best Practices In Performance Based Financing", course : "Performance Based Financing Management Programme", department : "School Of Development Management", location : "performancebasedfinancing.html"},
+
+{title : "Ceo Master Class", course : "", department : "School Of Enterprise Management", location : "enterprisemanagementcourses.html"},
+{title : "Start X & Y Accelerator Programme", course : "", department : "School Of Enterprise Management", location : "enterprisemanagementcourses.html"},
+{title : "Leadership & Management Certificate Course", course : "", department : "School Of Enterprise Management", location : "enterprisemanagementcourses.html"},
+{title : "Strategic Marketing & Sales: Actionable Selling Skills", course : "", department : "School Of Enterprise Management", location : "enterprisemanagementcourses.html"},
+{title : "Effective Communication: Content Writing, Design And Presentation", course : "", department : "School Of Enterprise Management", location : "enterprisemanagementcourses.html"},
+{title : "Employability And Entrepreneurial Skill", course : "", department : "School Of Enterprise Management", location : "enterprisemanagementcourses.html"},
+{title : "Teach Entrepreneurially", course : "", department : "School Of Enterprise Management", location : "enterprisemanagementcourses.html"},
+{title : "Using The Basic Microsoft Package: Excel, Powerpoint And Word", course : "", department : "School Of Enterprise Management", location : "enterprisemanagementcourses.html"},
+{title : "Business Competition And Negotiation Skills", course : "", department : "School Of Enterprise Management", location : "enterprisemanagementcourses.html"},
+{title : "Accounting For Business Owners: Strategic Financial Analysis For A Sustainable Enterprise Growth Ventures.", course : "", department : "School Of Enterprise Management", location : "enterprisemanagementcourses.html"},
+{title : "Financing For Entrepreneurs: Investible Grants, Credits And Loans Sourcing For Entrepreneurs.", course : "", department : "School Of Enterprise Management", location : "enterprisemanagementcourses.html"},
+{title : "Building And Sustaining Patronage Through Market Driving Strategies", course : "", department : "School Of Enterprise Management", location : "enterprisemanagementcourses.html"},
+
+
+{title : "School Of Virtual Learning", course : "", department : "School Of Virtual Learning", location : "schoolofvirtuallearning.html"},
+{title : "Data, Collection, Analysis And Interpretation (DCAI)", course : "", department : "School Of Virtual Learning", location : "schoolofvirtuallearning.html#dcai"},
+{title : "Grants, Proposal, Writing And Packaging (GPWP)", course : "", department : "School Of Virtual Learning", location : "schoolofvirtuallearning.html#gpwp"},
+{title : "Procurement Of Consultancy Services (PCS)", course : "", department : "School Of Virtual Learning", location : "schoolofvirtuallearning.html#pcs"},
+{title : "Procurement Of Goods And Equipment (PGE)", course : "", department : "School Of Virtual Learning", location : "schoolofvirtuallearning.html#pge"},
+{title : "Project Input, Output, Impact And Outcome Measurement (PIOIOM)", course : "", department : "School Of Virtual Learning", location : "schoolofvirtuallearning.html#pioiom"},
+{title : "Result-Based Project Monitoring And Evaluation (RBME)", course : "", department : "School Of Virtual Learning", location : "schoolofvirtuallearning.html#rbme"},
+{title : "Business Writing Skills Development (BWSD)", course : "", department : "School Of Virtual Learning", location : "schoolofvirtuallearning.html#bwsd"},
+{title : "Tender/Bidding Procedure and Evaluation (TBPE)", course : "", department : "School Of Virtual Learning", location : "schoolofvirtuallearning.html#tbpe"},
+{title : "Business Feasibility Study (BFS)", course : "", department : "School Of Virtual Learning", location : "schoolofvirtuallearning.html#bfs"},
+{title : "Business Proposal Development (BPD)", course : "", department : "School Of Virtual Learning", location : "schoolofvirtuallearning.html#bpd"},
+{title : "Business Risk Management (BRM)", course : "", department : "School Of Virtual Learning", location : "schoolofvirtuallearning.html#brm"},
+{title : "Entrepreneurship Skills Development (ESD)", course : "", department : "School Of Virtual Learning", location : "schoolofvirtuallearning.html#esd"},
+{title : "Job Interview Skills Development For Applicants (JISDA)", course : "", department : "School Of Virtual Learning", location : "schoolofvirtuallearning.html#jisda"},
+{title : "Retirement Planning And Management (RPM)", course : "", department : "School Of Virtual Learning", location : "schoolofvirtuallearning.html#rpm"},
+{title : "Consultancy Skills Development (CSD)", course : "", department : "School Of Virtual Learning", location : "schoolofvirtuallearning.html#csd"},
+];
+ul = document.getElementById("users-list");
+if (!String.prototype.replaceAll) {
+	String.prototype.replaceAll = function(str, newStr){
+	
+		// If a regex pattern
+		if (Object.prototype.toString.call(str).toLowerCase() === '[object regexp]') {
+			return this.replace(str, newStr);
+		}
+
+		// If a string
+		return this.replace(new RegExp(str, 'g'), newStr);
+
+	};
+}
+var render_lists = function(lists){
+  var li = "";
+  let keyword = input.value.toLowerCase();
+  for(index in lists){
+	let title = lists[index].title;
+	title = title.toLowerCase().replace(keyword,`<span>${keyword}</span>`);
+    li += `<li>
+                <a href="${lists[index].location}">
+                    <span>Title:<strong>${title}</strong></span>
+                    <span>Department: ${lists[index].department}</span>
+                    ${lists[index].course.length > 0 ? `<span>Course: ${lists[index].course}</span>` : ""}
+                </a>
+            </li>`;
+  }
+  ul.innerHTML = li;
+} 
+ 
+document.addEventListener("click", event => {
+	if(event.target.id != "users-list"){
+		render_lists([]);
+	}
+});
+//render_lists(users); 
+
+// lets filters it
+input = document.getElementById('filter_courses');
+
+var filterUsers = function(event){
+  keyword = input.value.toLowerCase();
+  filtered_users = users.filter(function(user){
+        user = user.title.toLowerCase();
+       return keyword.length > 0 ? user.indexOf(keyword) > -1 : false; 
+  });
+
+  render_lists(filtered_users);
+}
+
+input.addEventListener('keyup', filterUsers);
+
+    </script></body>
+<!-- Mirrored from themes.semicolonweb.com/html/canvas/index-corporate-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Nov 2020 04:22:26 GMT --></html>

@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But keep .gitignore itself
+!.gitignore
+
+# Allow all directories (so Git can reach files)
+!*/
+
+# Allow only HTML files
+!*.html
+!**/*.html
